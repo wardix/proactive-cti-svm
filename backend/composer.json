@@ -1,0 +1,17 @@
+{
+    "name": "syurahbil/proactive-cti-svm",
+    "type": "project",
+    "description": "Laravel Backend API Orchestrator for Proactive Cyber Security Defense Model Through CTI & SVM",
+    "license": "MIT",
+    "require": {
+        "php": "^8.1",
+        "ext-pdo": "*",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    }
+}

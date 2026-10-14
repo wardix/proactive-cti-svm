@@ -1,0 +1,22 @@
+# Node / Frontend
+frontend/node_modules/
+frontend/dist/
+npm-debug.log*
+
+# Python / ML Service
+ml-service/.venv/
+**/__pycache__/
+*.py[cod]
+*.egg-info/
+
+# SQLite temporary WAL/SHM files
+backend/database/*.sqlite-shm
+backend/database/*.sqlite-wal
+
+# OS & Editor files
+.DS_Store
+.idea/
+.vscode/
+
+# Reference documents
+thesis.pdf
